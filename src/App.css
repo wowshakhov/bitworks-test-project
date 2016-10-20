@@ -1,0 +1,99 @@
+.rel {
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+    margin-top: 15px;
+}
+.deletebutton {
+    width: 20px;
+    height: 20px;
+    background: red;
+    top: 0;
+    right: 0;
+    position: absolute;
+    color: white;
+    text-align: center;
+    -webkit-user-select: none;
+    /* Chrome/Safari */
+    
+    -moz-user-select: none;
+    /* Firefox */
+    
+    -ms-user-select: none;
+    /* IE10+ */
+    
+    cursor: default;
+}
+.greyedout {
+    color: grey;
+}
+.button {
+    background-color: #d5e8d4;
+    /* Green */
+    
+    border-width: 1px;
+    border-color: #6da955;
+    border-style: solid;
+    height: 25px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 12px;
+}
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+.newcontactinput {
+    margin-bottom: 5px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.filterinput {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.controlsContainer {
+    width: 200px;
+    float: left;
+}
+.wideContainer {
+    width: 400px;
+    overflow: hidden;
+}
+.container {
+    width: 400px;
+    padding: 5px;
+    background: #fff2dd;
+    border-color: #cfab3f;
+    border-style: solid;
+    border-width: 1px;
+    margin: 15px auto 0px auto;
+}
+.contactField {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 300px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.contactEdit {
+    paddind-top: 2px;
+    padding-bottom: 2px;
+    width: 300px;
+}
+.insufficientInfoProvided {
+    color: red;
+    overflow: hidden;
+    padding-left: 5px;
+}
+.hideWarning {
+    display: none;
+}
